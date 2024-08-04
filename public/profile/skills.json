@@ -1,0 +1,87 @@
+{
+    "intro": "I love to learn new things and perform experiments with the latest technologies.\nThese are some of the technologies, frameworks and tools I have worked with:",
+    "skills": [{
+     
+            "title": "Databases",
+            "items" : [
+                {
+                    "icon": "images/skills/mysql.png",
+                    "title": "MySQL"
+                },
+                {
+                    "icon": "images/skills/firebase.png",
+                    "title": "Firebase"
+                },
+                {
+                    "icon": "images/skills/mongo-db.png",
+                    "title": "Mongo DB"
+                },
+                {
+                    "icon": "images/skills/supabase.png",
+                    "title": "Supabase"
+                },
+                {
+                    "icon": "images/skills/redis.png",
+                    "title": "Redis"
+                }
+                
+        ]},
+        {
+            "title": "Frameworks & Technologies",
+            "items" : [
+                {
+                    "icon": "images/skills/android_new.png",
+                    "title": "Android"
+                },
+                {
+                    "icon": "images/skills/flutter.png",
+                    "title": "Flutter"
+                },
+                {
+                    "icon": "images/skills/react.png",
+                    "title": "React"
+                },
+                {
+                    "icon": "images/skills/tailwind.png",
+                    "title": "Tailwind"
+                },
+                {
+                    "icon": "images/skills/nodejs.png",
+                    "title": "Nodejs"
+                },
+                {
+                    "icon": "images/skills/django.png",
+                    "title": "Django"
+                },
+                {
+                    "icon": "images/skills/laravel.png",
+                    "title": "Laravel"
+                }
+            ]
+        },
+        {
+            "title" : "Tools & Platforms",
+            "items": [
+                {
+                    "icon": "images/skills/vscode.png",
+                    "title": "Visual Studio Code"
+                },
+                {
+                    "icon": "images/skills/git.png",
+                    "title": "Git"
+                },
+                {
+                    "icon": "images/skills/docker.png",
+                    "title": "Docker"
+                },
+                {
+                    "icon": "images/skills/figma.png",
+                    "title": "Figma"
+                },
+                {
+                    "icon": "images/skills/jupyternotebook.png",
+                    "title": "Jupyter"
+                }
+            ]
+    }
+]}

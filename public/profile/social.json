@@ -1,0 +1,20 @@
+{
+    "social": [
+        {
+            "network" : "linkedin",
+            "href": "https://linkedin.com/in/septian-n"
+        },
+        {
+            "network" : "github",
+            "href": "https://github.com/septiannuriyanto"
+        },
+        {
+            "network" : "email",
+            "href": "mailto:septian.nuryanto@gmail.com"
+        },
+        {
+            "network" : "instagram",
+            "href": "https://instagram.com/septian.js"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "experiences": [
+        {
+            "title": "Software Engineer & App Developer",
+            "subtitle": "Scalar Coding",
+            "workType": "Self-Owned Startup",
+            "workDescription": [
+                "Currently working on AI Project",
+                "Embracing Utility of IoT on Hybrid Monitoring Project"
+            ],
+            "dateText": "06/2022 – Present"
+        },
+        {
+            "title": "Fuel and Oil Analyst",
+            "subtitle": "PT. Pamapersada Nusantara",
+            "workType": "Full-Time",
+            "workDescription": [
+                "Applying digitalizations to mining industry in field of Fuel & Oil Management"
+            ],
+            "dateText": "09/2019 – Present"
+        },
+        {
+            "title": "Inventory Control Lead & Purchasing Supervisor",
+            "subtitle": "PT. Pamapersada Nusantara",
+            "workType": "Full-Time",
+            "workDescription": [
+                "Analyzing Inventory data to create balance between availability and efficiency"
+            ],
+            "dateText": "09/2012 – 09/2019"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "education":[
+        {
+            "title": "Jul 2023 - Jul 2025",
+            "cardTitle": "Bachelor of Computer Science",
+            "cardSubtitle":"Binus University",
+            "cardDetailedText": "",
+            "icon" : {
+                "src": "images/education/binus.png"
+            }
+        },
+        {
+            "title": "June 2024",
+            "cardTitle": "Complete Flutter Bootcamp",
+            "cardSubtitle":"Udemy",
+            "cardDetailedText": "Taught by Dr. Angela Yu",
+            "icon" : {
+                "src": "images/education/udemy.png"
+            }
+        },
+        {
+            "title": "August 2023",
+            "cardTitle": "Google Data Analytics Bootcamp",
+            "cardSubtitle":"Google",
+            "cardDetailedText": "",
+            "icon" : {
+                "src": "images/education/google.png"
+            }
+        },
+        {
+            "title": "April 2023",
+            "cardTitle": "Data Scientist Bootcamp",
+            "cardSubtitle":"Indonesian Ministry of ICT",
+            "cardDetailedText": "",
+            "icon" : {
+                "src": "images/education/kominfo.png"
+            }
+        },
+        {
+            "title": "Nov 2012",
+            "cardTitle": "Diploma III of Telecommunication Engineering",
+            "cardSubtitle":"State Polytechnic, Malang",
+            "cardDetailedText": "",
+            "icon" : {
+                "src": "images/education/polinema.jpg"
+            }
+        }
+    ]
+}
