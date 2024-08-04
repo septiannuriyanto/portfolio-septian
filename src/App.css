@@ -145,6 +145,47 @@ section.timeline-card-content div.card-description > p {
 .header {
   font-size: 3em;
   font-weight: bold;
+  margin-top: 25px;
   margin-bottom: 25px;
 }
 
+@media only screen and (max-width: 600px) {
+  .header {
+  margin-top: 0;
+  margin-bottom: 0;
+  }
+  .section-content-container {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  justify-content: start;
+  align-items: center;
+}
+
+.navbar-collapse{
+margin-top: 10px;
+gap: 10px;
+padding: 10px;
+
+}
+
+.navbar-nav{
+padding: 10px;
+
+}
+
+.navbar__link{
+padding-top: 20px;
+padding-bottom: 20px;
+margin-bottom: 10px;
+border: 1px solid rgb(23, 90, 135);
+border-radius: 8px;
+}
+
+.section-content-container .container .col img{
+width: 80vw;
+border-radius: 12px;
+}
+
+}
