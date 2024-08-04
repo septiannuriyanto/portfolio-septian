@@ -1,11 +1,29 @@
 import React, { useState, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
-import { Container } from 'react-bootstrap';
+import { Container, Col, Row } from 'react-bootstrap';
 import PropTypes from 'prop-types';
 import Fade from 'react-reveal';
 import Header from './Header';
 import endpoints from '../constants/endpoints';
 import FallbackSpinner from './FallbackSpinner';
+
+const styles = {
+  introTextContainer: {
+    width: '100vw',
+    margin: 20,
+    flexDirection: 'column',
+    whiteSpace: 'pre-wrap',
+    textAlign: 'justify',
+    fontSize: '1.2em',
+    fontWeight: 500,
+  },
+  introImageContainer: {
+    margin: 10,
+    justifyContent: 'center',
+    alignItems: 'center',
+    display: 'flex',
+  },
+};
 
 function About(props) {
   const { header } = props;
@@ -34,16 +52,14 @@ function About(props) {
           {data
             ? (
               <Fade>
-
-                <div className="intro">
-                  <div className="intro_text">
+                <Row>
+                  <Col style={styles.introTextContainer}>
                     {parseIntro(data.about)}
-                  </div>
-                  <div className="intro_image">
+                  </Col>
+                  <Col style={styles.introImageContainer}>
                     <img src={data?.imageSource} alt="profile" />
-                  </div>
-                </div>
-
+                  </Col>
+                </Row>
               </Fade>
             )
             : <FallbackSpinner />}
